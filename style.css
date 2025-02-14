@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family: 'Source Sans Pro';
+}
+.header{
+    height: 55px;
+    background-color:white;
+    position: relative;
+}
+
+.header .left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+   
+}
+.header .left .logo{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.header .left .logo img{
+    display: block;
+    margin: 3px 12px;
+    
+}
+.header .left .menu ul{
+    list-style-type: none;
+}
+.header .left .menu ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 10px;
+    font-size: 10px;
+    font-family:sans-serif;
+    margin: 5px 7px;
+    
+}
+
+.header .left .menu ul li:hover{
+    color: white;
+    width: 14%;
+    height:100%;
+    background-color: #04aa6d;
+}
+
+
+.header .left .menu{
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
+.header .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    position:relative;
+    margin:600px;
+    right: 0;
+}
+
+.section1{
+    height: 550px;
+    background-color: white;
+    position: relative;
+}
+.section1 .left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #282a35;
+    padding-top: 100px;
+    text-align: center;
+}
+.section1 .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.title{
+    font-size: 110px;
+    font-weight: bold;
+    color: white;
+}
+.desc{
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 10px;
+    color: white;
+    
+}
+.btn0 {
+    position: relative;
+    width: 110px;
+    background-color:#d9eee1;
+    margin-left:430px;
+    padding: 10px 35px;
+    margin-top: 8px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: right;
+    
+}
+
+
+
+.btn1, .btn2 {
+    width: 200px;
+    background-color: yellowgreen;
+    margin:20px auto;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.btn1{
+    background-color: #04aa6d;
+    color: white;
+}
+.btn1:hover{
+    background-color: #02a066;
+    color: white;
+}
+.btn2{
+    background-color: white;
+    color: black;
+}
+.btn2:hover{
+    background-color: #ebebeb;
+    color: black;
+}
+.right .container2{
+    width: 450px;
+    height: 400px;
+    background-color: #e7e9eb;
+    margin: 70px auto;
+    border-radius: 7px;
+    padding: 25px 15px;
+    
+    
+}
+.code{
+    width: 430px;
+    height: 260px;
+    background-color: white;
+    margin:15px auto;
+    border-left: 5px solid #04aa6d;
+    padding: 10px;   
+}
+.btn3{
+    background-color: #04aa6d;
+    color: white;
+    width: 200px;
+    margin-left: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    
+}
+.btn3:hover{
+    background-color:#02a066;
+    color: white;
+}
+
+
+
+
+
